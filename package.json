@@ -1,14 +1,29 @@
+
 {
   "name": "fakeapialuraflix",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Card aluraflix",
+  "main": "api/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhoan-Urrea/AluraFlixWebApp.git"
+  },
+  "keywords": [
+    "alura",
+    "aluraflix",
+    "json-server",
+    "javascript",
+    "API"
+  ],
+  "author": "Jhoan Sebastian Urrea Sanchez, js.urrea03@gmail.com",
+  "license": "MIT",
+  "homepage": "",
   "dependencies": {
-    "json-server": "^1.0.0-beta.1"
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.4"
   }
 }
